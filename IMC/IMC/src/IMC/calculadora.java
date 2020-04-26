@@ -1,12 +1,10 @@
-package IMC;
-
-import java.util.Scanner;
+package imc;
 
 public class calculadora {
 	
 
 	
-	static void imc(float altura, float peso) {
+	public static void imc(float altura, float peso) {
 		
 		float imc=peso/(altura*altura);
 		
